@@ -7,3 +7,16 @@
 body {
   font-family: "Bai Jamjuree", sans-serif;
 }
+
+.hero {
+  background-image: url("./assets/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+
+  @screen md {
+    background-image: url("./assets/bg-header-desktop.png");
+  }
+}
