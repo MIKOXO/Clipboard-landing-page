@@ -5,10 +5,10 @@ const Features = () => {
   return (
     <section className="mt-24">
       <div className="text-center px-6">
-        <h2 className="text-[36px] font-bold text-Gray700">
+        <h2 className="text-[28px] sm:text-[36px] font-bold text-Gray700">
           Keep track of your clipboard history
         </h2>
-        <p className="text-Gray500 mt-4 sm:text-[18px] px-4 lg:max-w-[720px] mx-auto opacity-85">
+        <p className="text-Gray500 mt-4 sm:text-[18px] px-4 lg:max-w-[720px] mx-auto">
           Clipboard instantly stores any item you copy in cloud, meaning you can
           access your snippets immediately on all your devices. Our Mac and iOS
           apps will help you organize everything.
