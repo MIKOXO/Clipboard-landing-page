@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 import AccessAnywhere from "../components/AccessAnywhere";
+import Workflow from "../components/Workflow";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Features />
       <AccessAnywhere />
+      <Workflow />
     </>
   );
 };
