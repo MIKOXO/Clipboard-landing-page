@@ -13,10 +13,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 100%;
   width: 100%;
 
   @screen md {
     background-image: url("./assets/bg-header-desktop.png");
+    height: 100%;
   }
 }
