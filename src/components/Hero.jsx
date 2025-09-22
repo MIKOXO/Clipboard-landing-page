@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import Buttons from "./Buttons";
 
 const Hero = () => {
   return (
@@ -13,13 +14,8 @@ const Hero = () => {
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <button className="bg-Green500 text-white font-semibold text-[18px] px-9 py-3 rounded-full shadow-Green500 hover:bg-opacity-75 ease-in-out duration-300">
-            Download for iOS
-          </button>
-          <button className="bg-Blue100 text-white font-semibold text-[18px] px-9 py-3 rounded-full shadow-Blue100 hover:bg-opacity-75 ease-in-out duration-300">
-            Download for Mac
-          </button>
+        <div>
+          <Buttons />
         </div>
       </div>
     </section>
