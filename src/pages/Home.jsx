@@ -5,6 +5,7 @@ import AccessAnywhere from "../components/AccessAnywhere";
 import Workflow from "../components/Workflow";
 import Partners from "../components/Partners";
 import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Workflow />
       <Partners />
       <CTA />
+      <Footer />
     </>
   );
 };
