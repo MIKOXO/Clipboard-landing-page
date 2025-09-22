@@ -29,7 +29,7 @@ const Workflow = () => {
   ];
 
   return (
-    <section className="mt-24 pb-20 flex flex-col items-center text-center px-6 lg:px-0 mx-auto container">
+    <section className="mt-24 flex flex-col items-center text-center px-6 lg:px-0 mx-auto container">
       <div>
         <h1 className="text-Gray700 text-[28px] sm:text-[36px] font-bold">
           Supercharge your workflow
